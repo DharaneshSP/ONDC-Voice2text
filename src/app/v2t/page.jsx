@@ -43,7 +43,7 @@ function App() {
 
       setMic(newMic);
     } else {
-      console.error("Speech recognition not supported on this browser");
+      alert("Speech recognition not supported on this browser");
     }
   };
 
